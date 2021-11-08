@@ -1,0 +1,68 @@
+/* SECCIÓN SOBRE MÍ */
+
+.tituloSobreMi__titulo{
+    color: #d2a290;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+
+
+.sobreMi{
+    position: relative;
+    background-color: #fcf9f6 ;
+
+    .parrafo{
+        color: #c57c3a;
+        font-family: 'Montserrat', sans-serif;
+        position: absolute;
+        top: 200px;
+        left: 630px;
+    }
+
+    .foto{
+        margin-top: 5px;
+        margin-left: 200px;
+        border-radius: 200%;
+    }
+    
+}
+
+
+
+
+.sobreMi__boton{
+    margin-left: 614px;
+	padding: 12px 24px;
+    background-color: #fcf9f6;
+    color: #d2a290;
+    border-radius: 7px;
+    border-color: #d2a290;
+    transition: transform 250ms cubic-bezier(.2,.8,.4,1);
+
+    :hover {
+        transform: scale(1.10);
+    }
+
+    :active {
+        transform: scale(0.9);
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

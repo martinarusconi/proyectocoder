@@ -1,0 +1,31 @@
+/* SECCIÓN PORTFOLIO */
+
+.pPortfolio{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 4%;
+    color: #d2a290;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 130%;
+}
+
+
+
+.imagenesPortfolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.img{
+    margin: 10px;
+
+    :hover{
+        transform: scale(1.2); 
+    }
+}
+
+

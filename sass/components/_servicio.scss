@@ -1,0 +1,39 @@
+/* SECCIÓN SERVICIOS */
+
+.bannerServicios{
+    margin-bottom: 100px;
+}
+
+.parrafoBranding{
+    justify-content: center
+}
+.seccionbranding{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.tablaServicioBranding{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row: auto auto auto auto auto auto;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.tablaServicioBranding div {
+    background-color: #fcf9f6;
+    text-align: left;
+    border: 1px solid #c57c3a;
+    justify-content: center;
+}
+
+.item7{
+    grid-area: 1 / 2 / 7 / 2;
+}
