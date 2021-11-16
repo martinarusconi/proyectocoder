@@ -1,5 +1,11 @@
 /* SECCIÓN PORTFOLIO */
 
+.h1Portfolio{
+    color: #c57c3a;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+}
+
 .pPortfolio{
     font-family: 'Montserrat', sans-serif;
     margin-left: 4%;
@@ -22,10 +28,12 @@
 
 .img{
     margin: 10px;
+}
 
-    :hover{
+
+.img:hover{
         transform: scale(1.2); 
     }
-}
+
 
 

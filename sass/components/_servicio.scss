@@ -1,39 +1,75 @@
 /* SECCIÓN SERVICIOS */
 
 .bannerServicios{
-    margin-bottom: 100px;
+    max-width: 100%;
 }
 
-.parrafoBranding{
-    justify-content: center
-}
-.seccionbranding{
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-
+.h1Servicios{
+    color: #c57c3a;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+    
 }
 
+.sBranding{
+    margin-top: 60px;
+}
 
-.tablaServicioBranding{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-row: auto auto auto auto auto auto;
-    justify-content: center;
-    align-content: center;
+.iBranding{
+    margin-left: 370px;
+}
+
+.hBranding{
+    color: #c57c3a;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.pMarcas{
+    color: #c57c3a;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 
-.tablaServicioBranding div {
-    background-color: #fcf9f6;
-    text-align: left;
-    border: 1px solid #c57c3a;
-    justify-content: center;
+.sRedes{
+    margin-top: 60px;
 }
 
-.item7{
-    grid-area: 1 / 2 / 7 / 2;
+.iRedes{
+    margin-left: 370px;
+}
+
+.hRedes{
+    color: #c57c3a;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.pRedes{
+    color: #c57c3a;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+
+.sPapel{
+    margin-top: 60px;
+}
+
+.iPapel{
+    margin-left: 370px;
+}
+
+.hPapel{
+    color: #c57c3a;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.pPapel{
+    color: #c57c3a;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }

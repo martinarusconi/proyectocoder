@@ -1,0 +1,228 @@
+/* INCIO */
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+    }
+
+
+.tituloprincipal {
+    text-align: center;
+    color: #d2a290;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size:x-large;
+}   
+
+
+.tituloServicios{
+    text-align: center;
+    color: #ffc69d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+
+
+.principal{
+    position: relative;
+    background-color: #f6f0ec;
+}
+
+.principal__parrafo{
+        color: #c57c3a;
+        margin-left: 60%;
+        font-family: 'Montserrat', sans-serif;
+        position: absolute;
+        top: 110px;
+    }
+
+.imagenTexto{
+        padding-left: 8%;
+    }
+
+
+.banner {
+    max-width: 100%;
+    height: 40%;
+}
+
+
+.inicio{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
+}
+
+.inicio__info{
+        color: #c57c3a;
+        font-size:x-large;
+        text-align: center;
+    }
+
+
+
+
+.btn-primary{
+    margin-top: 10px;
+    background-color: #d2a290;
+    color: #f6f0ec;
+    border-color: none;
+
+    :hover{
+        background-color: #ffe5db;
+        border-color: none;
+    }
+}
+    
+    
+
+    :visited {
+        background-color: #c57c3a;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+/* NAV */
+
+.logoBlossom{
+    margin-left: 30px;
+}
+
+
+.barra {
+    background-color: #f6f0ec;
+    text-decoration: none;
+    list-style: none;
+    padding: 1%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.barra li{
+    display: inline;
+    margin-left: 2%;
+}
+
+
+nav ul li a {
+    color: #c57c3a;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.contenedor__navServicios a{
+    color: #c57c3a;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 30px;
+    
+}
+
+
+
+.contenedor__navServicios li {
+    display: inline;
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.navFooter ul li a{
+    color: #c57c3a;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.footer{
+    margin-top: 100px;
+    background: linear-gradient(to right, #fcf9f6 0%, #ffe5db 100%);
+}
+
+
+.footerBlossom{
+    text-align: center;
+    color: #d2a290;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.BarraFooter {
+text-align: center;
+padding-bottom: 20px;
+
+}
+
+.BarraFooter li {
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 30px;
+} 
+
+.ig{
+    padding-bottom: 30px;
+    margin-left: 700px;
+}
+
+
+/* MEDIA QUERYES */
+
+
+
+@media only screen and (max-width: 1024px) {
+    .parrafoPrincipal{
+        margin-left: 40%;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .parrafoPrincipal{
+        margin-left: 50%;
+    }
+
+    .tituloServicios{
+        margin-top: 100px;
+    }
+}
+
+
+
+@media only screen and (max-width: 320px) {
+        .parrafoPrincipal{
+            margin-left: 5%;
+    }
+}

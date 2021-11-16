@@ -51,6 +51,11 @@
   height: 30px; }
 
 /* SECCIÓN PORTFOLIO */
+.h1Portfolio {
+  color: #c57c3a;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 20px; }
+
 .pPortfolio {
   font-family: 'Montserrat', sans-serif;
   margin-left: 4%;
@@ -68,8 +73,9 @@
 
 .img {
   margin: 10px; }
-  .img :hover {
-    transform: scale(1.2); }
+
+.img:hover {
+  transform: scale(1.2); }
 
 /* SECCIÓN SOBRE MÍ */
 .tituloSobreMi__titulo {
@@ -81,16 +87,18 @@
 .sobreMi {
   position: relative;
   background-color: #fcf9f6; }
-  .sobreMi .parrafo {
-    color: #c57c3a;
-    font-family: 'Montserrat', sans-serif;
-    position: absolute;
-    top: 200px;
-    left: 630px; }
-  .sobreMi .foto {
-    margin-top: 5px;
-    margin-left: 200px;
-    border-radius: 200%; }
+
+.sobreMi__parrafo {
+  color: #c57c3a;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 200px;
+  left: 630px; }
+
+.sobreMi__foto {
+  margin-top: 5px;
+  margin-left: 200px;
+  border-radius: 200%; }
 
 .sobreMi__boton {
   margin-left: 614px;
@@ -107,36 +115,62 @@
 
 /* SECCIÓN SERVICIOS */
 .bannerServicios {
-  margin-bottom: 100px; }
+  max-width: 100%; }
 
-.parrafoBranding {
-  justify-content: center; }
+.h1Servicios {
+  color: #c57c3a;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 20px; }
 
-.seccionbranding {
-  margin-top: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center; }
+.sBranding {
+  margin-top: 60px; }
 
-.tablaServicioBranding {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-row: auto auto auto auto auto auto;
-  justify-content: center;
-  align-content: center; }
+.iBranding {
+  margin-left: 370px; }
 
-.tablaServicioBranding div {
-  background-color: #fcf9f6;
-  text-align: left;
-  border: 1px solid #c57c3a;
-  justify-content: center; }
+.hBranding {
+  color: #c57c3a;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; }
 
-.item7 {
-  grid-area: 1 / 2 / 7 / 2; }
+.pMarcas {
+  color: #c57c3a;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; }
 
-/* BODY */
+.sRedes {
+  margin-top: 60px; }
+
+.iRedes {
+  margin-left: 370px; }
+
+.hRedes {
+  color: #c57c3a;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; }
+
+.pRedes {
+  color: #c57c3a;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; }
+
+.sPapel {
+  margin-top: 60px; }
+
+.iPapel {
+  margin-left: 370px; }
+
+.hPapel {
+  color: #c57c3a;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; }
+
+.pPapel {
+  color: #c57c3a;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; }
+
+/* INCIO */
 .body {
   font-family: 'Montserrat', sans-serif; }
 
@@ -160,15 +194,16 @@
 .principal {
   position: relative;
   background-color: #f6f0ec; }
-  .principal .parrafo {
-    text-align: left;
-    color: #c57c3a;
-    margin-left: 58%;
-    font-family: 'Montserrat', sans-serif;
-    position: absolute;
-    top: 150px; }
-  .principal .imagenTexto {
-    padding-left: 8%; }
+
+.principal__parrafo {
+  color: #c57c3a;
+  margin-left: 60%;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 110px; }
+
+.imagenTexto {
+  padding-left: 8%; }
 
 .banner {
   max-width: 100%;
@@ -177,10 +212,11 @@
 .inicio {
   font-family: 'Montserrat', sans-serif;
   margin-top: 100px; }
-  .inicio .info {
-    color: #c57c3a;
-    font-size: x-large;
-    text-align: center; }
+
+.inicio__info {
+  color: #c57c3a;
+  font-size: x-large;
+  text-align: center; }
 
 .btn-primary {
   margin-top: 10px;
@@ -190,8 +226,9 @@
   .btn-primary :hover {
     background-color: #ffe5db;
     border-color: none; }
-  .btn-primary :visited {
-    background-color: #c57c3a; }
+
+:visited {
+  background-color: #c57c3a; }
 
 /* NAV */
 .logoBlossom {
@@ -218,22 +255,11 @@ nav ul li a {
   color: #c57c3a;
   text-decoration: none;
   list-style: none;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 30px; }
 
 .contenedor__navServicios li {
   display: inline; }
-
-.seccionServ {
-  position: relative; }
-
-.subMenu {
-  display: none;
-  position: absolute;
-  list-style: none; }
-
-.seccionServ:hover .subMenu {
-  display: table;
-  color: #d2a290; }
 
 /* FOOTER */
 .navFooter ul li a {
